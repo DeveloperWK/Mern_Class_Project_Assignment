@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moric-Yacht Booking HTML5 Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!-- Favicon -->
+
+    <!-- Bootstrap Source Attach -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Bootstrap Source Attach -->
+
+    <!-- Other Css Attach -->
+    <link rel="stylesheet" type="text/css" href="css/hoverbuttons.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/magic.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <!-- Other Css Attach -->
+    <!-- Main css  -->
+    <link rel="stylesheet" href="css/stylesheet.min.css" />
+    <!-- Main css  -->
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="css/responsive.min.css" />
+    <!-- Responsive Css -->
+    <!-- Script Source Attach -->
+    <script src="js/_dist/jquery.min.js.js" defer></script>
+    <script src="js/_dist/slick.min.js" defer></script>
+    <script src="js/_dist/tilt.jquery.min.js.js" defer></script>
+    <script src="js/_dist/main.js" defer></script>
+    <script src="js/_dist/bootstrap.bundle.min.js.js" defer></script>
+    <!-- Script Source Attach -->
+  </head>
+  <body data-bs-theme="light">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="img/company_logo.png"
+            class="animate__animated animate__pulse animate__infinite logo"
+            alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#yachts"> Yachts </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#activities">Activities</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#testimonial"
+                >Testimonial</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" id="theme"
+                ><i class="bi bi-moon-stars"></i> Dark</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Hero Section Start -->
+    <main id="home">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade hero"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="8000">
+            <video
+              autoplay="autoplay"
+              muted="muted"
+              loop="loop"
+              playsinline="playsinline"
+              class="d-block w-100"
+              src="img/moric_video.mp4"
+            ></video>
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="fs-1 animate__animated animate__backInRight">
+                Luxury Yachts & Boat Charters
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt dolore magna aliqua.
+              </p>
+              <button
+                class="btn btn-primary btn-lg t-italic mt-4 fs-6 text-uppercase"
+                data-tilt
+                data-tilt-reset="false"
+              >
+                Book your tour
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/hero_img_2.jpg" class="d-block w-100" alt="image 2" />
+            <div
+              class="carousel-caption h-100 d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="animate__animated animate__slideInLeft">
+                Professional & Dynamic Company
+              </h1>
+              <p>
+                sit amet consectetur adipisicing elit. Voluptatibus rerum
+                laboriosam praesentium reprehenderit autem culpa nihil
+                architecto .
+              </p>
+              <button
+                class="btn btn-primary btn-lg t-italic mt-4 fs-6 text-uppercase"
+              >
+                Book your tour
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide3.jpg" class="d-block w-100" alt="slide3" />
+            <div
+              class="carousel-caption h-100 d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="animate__animated animate__slideInDown">
+                Enjoy a relaxing time at sea
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum,
+                sint consectetur pariatur quasi eum modi praesentium fugiat
+                soluta neque corporis.
+              </p>
+              <button
+                class="btn btn-primary btn-lg t-italic mt-4 fs-6 text-uppercase"
+              >
+                Book your tour
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide4.jpg" class="d-block w-100" alt="slide4" />
+            <div
+              class="carousel-caption h-100 d-flex flex-column align-items-center justify-content-center"
+            >
+              <h1 class="animate__animated animate__backInDown">
+                Your Ocean Adventure Awaits
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                mollitia nobis eum explicabo, voluptatum fuga.
+              </p>
+              <button
+                class="btn btn-primary btn-lg t-italic mt-4 fs-6 text-uppercase"
+              >
+                Book your tour
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+    <!-- Hero Section End -->
+    <!-- Icon Box Section Start -->
+    <section class="featureBoxContainer container text-center mt-3 text-light">
+      <div class="featureBoxRow row">
+        <div
+          class="feature col-12 col-md-6 col-lg-3 px-2 py-4"
+          data-tilt
+          data-tilt-scale="1.1"
+        >
+          <div class="featureContent px-2 py-3">
+            <img src="img/feature_1.svg" alt="feature1" class="w-50 pb-2" />
+            <h5>Charter Refreshments</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur do eiusmod tempor
+              incididunt
+            </p>
+          </div>
+        </div>
+        <div
+          class="feature col-12 col-md-6 col-lg-3 px-2 py-4"
+          data-tilt
+          data-tilt-axis="y"
+        >
+          <div class="featureContent px-2 py-3">
+            <img src="img/feature_2.svg" alt="feature1" class="w-50 pb-2" />
+            <h5>Exclusive Service</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur do eiusmod tempor
+              incididunt
+            </p>
+          </div>
+        </div>
+        <div
+          class="feature col-12 col-md-6 col-lg-3 px-2 py-4"
+          data-tilt
+          data-tilt-scale="1.1"
+        >
+          <div class="featureContent px-2 py-3">
+            <img src="img/feature_3.svg" alt="feature1" class="w-50 pb-2" />
+            <h5>Expert Team</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur do eiusmod tempor
+              incididunt
+            </p>
+          </div>
+        </div>
+        <div
+          class="feature col-12 col-md-6 col-lg-3 px-2 py-4"
+          data-tilt
+          data-tilt-reset="true"
+        >
+          <div class="featureContent px-2 py-3">
+            <img src="img/feature_4.svg" alt="feature1" class="w-50 pb-2" />
+            <h5>Great Offers</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur do eiusmod tempor
+              incididunt
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Icon Box Section End -->
+    <!-- About Section Start -->
+    <section id="about" class="container my-3">
+      <h1 class="text-center mb-5">About Us</h1>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6">
+          <img src="img/tab-motor.jpg" class="w-100" alt="about" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <img src="img/company_logo.png" alt="about" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam a
+            cum velit aliquid reprehenderit facere ex aliquam dicta rerum
+            officia laboriosam magni adipisci, optio repellendus fugiat aperiam
+            quam delectus? Minima laboriosam, expedita accusantium quis nihil
+            cum necessitatibus. Corporis suscipit obcaecati animi nobis dolor,
+            quos aliquid nemo cupiditate sunt eligendi fugit cum quisquam sit.
+            Pariatur maiores sunt blanditiis quibusdam reiciendis sapiente amet
+            perspiciatis expedita, ad optio ut temporibus, possimus vero ipsum
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+    <!-- 3nd Section Start -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center p-5">
+            <img src="img/intro_bg_top.webp" alt="intro_bg_top" />
+            <h5 class="text-primary fs-4">Professional & dynamic</h5>
+            <h1>Yacht Charter Experts</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip commodo consequat.
+            </p>
+          </div>
+          <div class="col-12 text-center">
+            <img src="img/intro_bg_bot.webp" alt="intro_bg_top_bot" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 3nd Section End -->
+    <!-- Tab Section Start -->
+    <section class="d-flex flex-column align-items-center h-100" id="yachts">
+      <hgroup class="text-center py-4">
+        <h2 class="text-primary">Choose your Favorite</h2>
+        <h1>Large Selection of Yachts</h1>
+      </hgroup>
+      <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-motor-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-motor"
+            type="button"
+            role="tab"
+            aria-controls="pills-motor"
+            aria-selected="true"
+          >
+            Motor
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-fishing-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-fishing"
+            type="button"
+            role="tab"
+            aria-controls="pills-fishing"
+            aria-selected="false"
+          >
+            Fishing
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-sailing-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-sailing"
+            type="button"
+            role="tab"
+            aria-controls="pills-sailing"
+            aria-selected="false"
+          >
+            Sailing
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-groups-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-groups"
+            type="button"
+            role="tab"
+            aria-controls="pills-groups"
+            aria-selected="false"
+          >
+            Groups
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content bg-primary-subtle" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active animate__animated animate__fadeInDown"
+          id="pills-motor"
+          role="tabpanel"
+          aria-labelledby="pills-motor-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <img src="img/tab-motor.jpg" class="img-fluid" alt="motor" />
+            </div>
+            <div class="col-12 col-md-6 p-5">
+              <p class="text-primary">21 Types</p>
+              <h2>Motor Yachts</h2>
+              <p class="tabText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in cillum dolore eu fugiat nulla pariatur.
+              </p>
+              <a href="#" class="more hbtn hb-fill-middle2-rev-bg w-25"
+                >More Info</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade animate__animated animate__slideInUp"
+          id="pills-fishing"
+          role="tabpanel"
+          aria-labelledby="pills-fishing-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <img src="img/tab-fishing.jpg" class="img-fluid" alt="Fishing" />
+            </div>
+            <div class="col-12 col-md-6 p-5">
+              <p class="text-primary">14 Types</p>
+              <h2>Fishing Boats</h2>
+              <p class="tabText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in cillum dolore eu fugiat nulla pariatur.
+              </p>
+              <a href="#" class="more hbtn hb-fill-bottom-rev w-25"
+                >More Info</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane animate__animated animate__slideInDown"
+          id="pills-sailing"
+          role="tabpanel"
+          aria-labelledby="pills-sailing-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <img src="img/tab-sailing.jpg" class="img-fluid" alt="Sailing" />
+            </div>
+            <div class="col-12 col-md-6 p-5">
+              <p class="text-primary">17 Types</p>
+              <h2>Sailing Yacht</h2>
+              <p class="tabText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in cillum dolore eu fugiat nulla pariatur.
+              </p>
+              <a href="#" class="more hbtn hb-fill-middle2-rev-bg w-25"
+                >More Info</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade animate__animated animate__slideInLeft"
+          id="pills-groups"
+          role="tabpanel"
+          aria-labelledby="pills-groups-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <img src="img/tab-group.jpg" class="img-fluid" alt="Groups" />
+            </div>
+            <div class="col-12 col-md-6 p-5">
+              <p class="text-primary">16 Types</p>
+              <h2>Groups Boats</h2>
+              <p class="tabText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in cillum dolore eu fugiat nulla pariatur.
+              </p>
+              <a href="#" class="more hbtn hb-fill-bottom-rev w-25"
+                >More Info</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tab Section End -->
+    <!-- Activities Section Start  -->
+    <hgroup class="container text-center mt-4" id="activities">
+      <h2 class="text-primary fs-4">Sporting</h2>
+      <h1 class="fs-1">Activities</h1>
+    </hgroup>
+    <section class="container action mt-5">
+      <div class="action__Card shadow-sm">
+        <img src="img/act_1.jpg" alt="act_1" />
+        <div class="action__content">
+          <h2>Gibraltar Tour</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+            labore! Similique officiis veritatis vero unde.
+          </p>
+        </div>
+      </div>
+      <div class="action__Card shadow-sm">
+        <img src="img/act_2.jpg" alt="act_2" />
+        <div class="action__content">
+          <h2>Luxury Cruising</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+            labore! Similique officiis veritatis vero unde.
+          </p>
+        </div>
+      </div>
+      <div class="action__Card shadow-sm">
+        <img src="img/act_3.jpg" alt="act_3" />
+        <div class="action__content">
+          <h2>Dolphin Watching</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+            labore! Similique officiis veritatis vero unde.
+          </p>
+        </div>
+      </div>
+      <div class="action__Card shadow-sm">
+        <img src="img/act_4.jpg" alt="act_4" />
+        <div class="action__content">
+          <h2>Fishing</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+            labore! Similique officiis veritatis vero unde.
+          </p>
+        </div>
+      </div>
+      <div class="action__Card shadow-sm">
+        <img src="img/act_5.jpg" alt="act_5" />
+        <div class="action__content">
+          <h2>Stag / Hen Parties</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+            labore! Similique officiis veritatis vero unde.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Activities Section End  -->
+    <!-- offer Section Start -->
+    <section
+      class="offer d-flex flex-column justify-content-center align-items-center mt-5"
+    >
+      <p class="w-50 fs-3 text-center text-light">
+        Enjoy the sea, aboard our boat, where you can enjoy Fishing, Walking,
+        Parties, & Excursions
+      </p>
+      <button class="offerBtn" data-tilt data-tilt-scale="1.1">
+        Offers inside
+      </button>
+    </section>
+    <!-- offer Section End -->
+    <!-- Testimonial Section Start  -->
+    <h1 class="text-center mt-3" id="testimonial">Testimonial</h1>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide my-5 container"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active bg-black"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          class="bg-black"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+          class="bg-black"
+        ></button>
+      </div>
+      <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+          <img
+            src="img/pic_1.jpg"
+            class="clintImg d-block mx-auto"
+            alt="pic_1"
+          />
+          <h4>Phillip Morris</h4>
+          <p class="text-dark-emphasis clintContent mb-5">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+            nobis ut? Excepturi ipsum similique repellat ut nihil vitae quod,
+            architecto velit repellendus neque asperiores assumenda perferendis
+            sed laboriosam, quam eos.
+          </p>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/pic_2.jpg"
+            class="clintImg d-block mx-auto"
+            alt="pic_1"
+          />
+          <h4>Pamela Walker</h4>
+          <p class="text-dark-emphasis clintContent mb-5">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+            nobis ut? Excepturi ipsum similique repellat ut nihil vitae quod,
+            architecto velit repellendus neque asperiores assumenda perferendis
+            sed laboriosam, quam eos.
+          </p>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/pic_3.jpg"
+            class="clintImg d-block mx-auto"
+            alt="pic_1"
+          />
+          <h4>Billy Knight</h4>
+          <p class="text-dark-emphasis clintContent mb-5">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+            nobis ut? Excepturi ipsum similique repellat ut nihil vitae quod,
+            architecto velit repellendus neque asperiores assumenda perferendis
+            sed laboriosam, quam eos.
+          </p>
+        </div>
+      </div>
+      <!-- <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+    <!-- Testimonial Section End  -->
+    <!-- contact Form Start -->
+    <section class="contact p-5">
+      <h1 class="text-center text-light fs-1">Get Us Quote</h1>
+      <form class="w-50 container my-5">
+        <div class="mb-3 w-100">
+          <label for="exampleFormControlInput1" class="form-label text-light"
+            >Name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Enter Your Name"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label text-light"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label text-light"
+            >Message</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Enter Your Message"
+          ></textarea>
+        </div>
+        <button class="btn btn-primary w-100">Message Us</button>
+      </form>
+    </section>
+    <!-- contact Form End -->
+    <!-- Update Section Start -->
+    <section
+      class="update d-flex flex-column justify-content-center align-items-center"
+    >
+      <h1 class="text-light">Get Updates</h1>
+      <p class="text-center text-light">
+        Lorem ipsum dolor sit amet, consectetur adipiscing <br />elit, sed do
+        tempor incididunt magna aliqua.
+      </p>
+      <button class="subscribe" data-tilt data-tilt-scale="1.1">
+        subscribe now
+      </button>
+    </section>
+    <!-- Update Section End -->
+    <!-- Footer Section Start -->
+    <footer class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <h4 class="text-light">Activities</h4>
+            <ul class="p-0">
+              <li><a href="#">Luxury Cruising</a></li>
+              <li><a href="#">Dolphin Watching</a></li>
+              <li><a href="#">Fishing</a></li>
+              <li><a href="#">Stag / Hen Parties</a></li>
+              <li><a href="#">Gibraltar Tour</a></li>
+              <li><a href="#">Corporate Events</a></li>
+              <li><a href="#">Day Sailing</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h4 class="text-light">Yachts</h4>
+            <ul class="p-0">
+              <li><a href="#">Motor Yachts</a></li>
+              <li><a href="#">Fishing Boats</a></li>
+              <li><a href="#">Sailing Yachts</a></li>
+              <li><a href="#">Groups Boats</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Management</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h4 class="text-light">Contact Us</h4>
+            <ul class="p-0">
+              <li>
+                <a href="#" class="text-center"
+                  ><i class="bi bi-geo-alt"></i>2079 Settlers Lane, lorem ipsum
+                  - 56478354</a
+                >
+              </li>
+
+              <li>
+                <a href="#"
+                  ><i class="bi bi-envelope-at"></i>email@example.com</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="bi bi-telephone"></i>+54 192 45 78 621 / 622 /
+                  623</a
+                >
+              </li>
+              <h4 class="text-light py-3">We are social</h4>
+              <ul class="d-flex p-0">
+                <li>
+                  <a href="#"><i class="bi bi-twitter-x fs-3 social"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-facebook fs-3 social"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-youtube fs-3 social"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-behance fs-3 social"></i></a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h4 class="text-light pb-2">Business Partner</h4>
+            <img src="img/partner_logo_1.jpg" alt="partner_logo" />
+            <p class="text-light lh-base pt-3">
+              Our huge list of partner market is lorem ipsum dolor sit
+              consectetur amet, adipisicing elit. Suscipit, incidunt vero quod
+              numquam tempore quia ipsa.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bottomFooter">
+        <p>
+          Copyright © 2024 Moric. All rights reserved. Developed By
+          <span style="color: #00b0d6; font-weight: 800">Developer.WK</span>
+        </p>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+  </body>
+</html>
